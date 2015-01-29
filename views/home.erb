@@ -1,0 +1,12 @@
+
+ <form action="/home" method="post">
+  <textarea name="message"></textarea>
+  <input type="submit" />
+ </form>
+
+
+
+
+<% @first_post.each do |print| %>
+	<%=print.content%>
+<%end%>
